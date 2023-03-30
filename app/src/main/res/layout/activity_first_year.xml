@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".FirstYear">
+
+    <GridLayout
+        android:layout_width="355dp"
+        android:layout_height="612dp"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/room1"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:background="#000"
+            android:text="Room No 1"
+
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room2"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="7dp"
+            android:background="#000"
+            android:text="Room No 2"
+            android:textColor="#fff"
+
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room3"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+
+            android:background="#000"
+            android:text="Room No 3"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room4"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="7dp"
+            android:background="#000"
+
+            android:text="Room No 4"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room5"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:background="#000"
+            android:text="Room No 5"
+
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room6"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="7dp"
+            android:background="#000"
+
+            android:text="Room No 6"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room7"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+
+            android:background="#000"
+            android:text="Room No 7"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room8"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="70dp"
+
+            android:layout_marginTop="7dp"
+            android:background="#000"
+            android:text="Room No 8"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room9"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:background="#000"
+            android:text="Room No 9"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/room10"
+            android:layout_width="120dp"
+            android:layout_height="102dp"
+            android:layout_marginTop="7dp"
+
+            android:layout_marginLeft="70dp"
+            android:background="#000"
+            android:text="Room No 10"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

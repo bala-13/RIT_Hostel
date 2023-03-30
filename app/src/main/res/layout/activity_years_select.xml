@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Year"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="80dp"
+
+            android:transitionName="logo_text" />
+        <Button
+            android:id="@+id/First"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="1st Year"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/Second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="2nd Year"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/Third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="3rd Year"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+        <Button
+            android:id="@+id/Four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="4th Year"
+            android:textColor="#fff"
+            app:backgroundTint="#050505" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

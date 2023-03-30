@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "162018224831",
+    "project_id": "hostel-app-3f2ec",
+    "storage_bucket": "hostel-app-3f2ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162018224831:android:eacd5d9916ef637b75b40a",
+        "android_client_info": {
+          "package_name": "com.example.rithostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162018224831-jbmgb1uq922lfh4e02igmngfcikq74q6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rithostel",
+            "certificate_hash": "84a938992e83c26d5d90c5914ad76258c7f4075d"
+          }
+        },
+        {
+          "client_id": "162018224831-7kekv4lvr4k8npn9vhkasbpm93a0l1q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmykaTzVzBuYkDrJKxH3dsJxdnvsUvNsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162018224831-7kekv4lvr4k8npn9vhkasbpm93a0l1q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
